@@ -29,7 +29,7 @@ enter command: C 20 5
 |                    |
 |                    |
 |                    |
-|					 |
+|      		     |
 ----------------------
 
 enter command: L 1 3 7 3
@@ -38,7 +38,7 @@ enter command: L 1 3 7 3
 |                    |
 |xxxxxxx             |
 |                    |
-|					 |
+|		     |
 ----------------------
 
 enter command: L 7 1 7 3
@@ -47,7 +47,7 @@ enter command: L 7 1 7 3
 |      x             |
 |xxxxxxx             |
 |                    |
-|					 |
+|		     |
 ----------------------
 
 enter command: R 15 2 20 5
@@ -56,7 +56,7 @@ enter command: R 15 2 20 5
 |      x       xxxxxx|
 |xxxxxxx       x    x|
 |              x    x|
-			   xxxxxx|
+	       xxxxxx|
 ----------------------
 
 enter command: Q
