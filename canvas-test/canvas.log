@@ -1,0 +1,61 @@
+2023-05-27 22:21:54.962 [main] INFO  com.pravin.coding.canvas.CanvasProcessor - entered command C 20 5
+2023-05-27 22:21:54.985 [main] INFO  com.pravin.coding.canvas.shapes.parser.Parser - Command C 20 5 parsed as [com.pravin.coding.canvas.actions.CreateCanvas@651] 
+2023-05-27 22:21:54.986 [main] INFO  com.pravin.coding.canvas.CanvasProcessor - executing command C 20 5 as com.pravin.coding.canvas.actions.CreateCanvas@651
+2023-05-27 22:21:54.988 [main] ERROR com.pravin.coding.canvas.CanvasProcessor - ShapeDrawer set
+2023-05-27 22:21:54.991 [main] DEBUG com.pravin.coding.canvas.output.ConsoleOutputDisplay - New Canvas Image: 
+ ----------------------
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+----------------------
+2023-05-27 22:22:02.197 [main] INFO  com.pravin.coding.canvas.CanvasProcessor - entered command L 7 1 3 7
+2023-05-27 22:22:02.212 [main] INFO  com.pravin.coding.canvas.shapes.parser.Parser - Command L 7 1 3 7 parsed as [Line[c1=6x0,c2=2x6,lineCharacter=x]] 
+2023-05-27 22:22:02.213 [main] INFO  com.pravin.coding.canvas.CanvasProcessor - executing command L 7 1 3 7 as Line[c1=6x0,c2=2x6,lineCharacter=x]
+2023-05-27 22:22:02.214 [main] ERROR com.pravin.coding.canvas.CanvasProcessor - executing command L 7 1 3 7 as 
+2023-05-27 22:22:02.218 [main] DEBUG com.pravin.coding.canvas.output.ConsoleOutputDisplay - New Canvas Image: 
+ ----------------------
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+----------------------
+2023-05-27 22:22:05.532 [main] INFO  com.pravin.coding.canvas.CanvasProcessor - entered command L 1 3 7 3
+2023-05-27 22:22:05.533 [main] INFO  com.pravin.coding.canvas.shapes.parser.Parser - Command L 1 3 7 3 parsed as [Line[c1=0x2,c2=6x2,lineCharacter=x]] 
+2023-05-27 22:22:05.534 [main] INFO  com.pravin.coding.canvas.CanvasProcessor - executing command L 1 3 7 3 as Line[c1=0x2,c2=6x2,lineCharacter=x]
+2023-05-27 22:22:05.534 [main] DEBUG com.pravin.coding.canvas.output.ConsoleOutputDisplay - New Canvas Image: 
+ ----------------------
+|                    |
+|                    |
+|xxxxxxx             |
+|                    |
+|                    |
+----------------------
+2023-05-27 22:22:10.787 [main] INFO  com.pravin.coding.canvas.CanvasProcessor - entered command R 15 3 20 3
+2023-05-27 22:22:10.790 [main] INFO  com.pravin.coding.canvas.shapes.parser.Parser - Command R 15 3 20 3 parsed as [Rectangle[lines=[Line[c1=14x2,c2=14x2,lineCharacter=x], Line[c1=14x2,c2=19x2,lineCharacter=x], Line[c1=19x2,c2=14x2,lineCharacter=x], Line[c1=19x2,c2=19x2,lineCharacter=x]],c1=14x2,c2=19x2,rectCharacter=x]] 
+2023-05-27 22:22:10.791 [main] INFO  com.pravin.coding.canvas.CanvasProcessor - executing command R 15 3 20 3 as Rectangle[lines=[Line[c1=14x2,c2=14x2,lineCharacter=x], Line[c1=14x2,c2=19x2,lineCharacter=x], Line[c1=19x2,c2=14x2,lineCharacter=x], Line[c1=19x2,c2=19x2,lineCharacter=x]],c1=14x2,c2=19x2,rectCharacter=x]
+2023-05-27 22:22:10.792 [main] DEBUG com.pravin.coding.canvas.output.ConsoleOutputDisplay - New Canvas Image: 
+ ----------------------
+|                    |
+|                    |
+|xxxxxxx       xxxxxx|
+|                    |
+|                    |
+----------------------
+2023-05-27 22:22:20.216 [main] INFO  com.pravin.coding.canvas.CanvasProcessor - entered command R 15 3 20 5
+2023-05-27 22:22:20.218 [main] INFO  com.pravin.coding.canvas.shapes.parser.Parser - Command R 15 3 20 5 parsed as [Rectangle[lines=[Line[c1=14x2,c2=14x4,lineCharacter=x], Line[c1=14x2,c2=19x2,lineCharacter=x], Line[c1=19x4,c2=14x4,lineCharacter=x], Line[c1=19x4,c2=19x2,lineCharacter=x]],c1=14x2,c2=19x4,rectCharacter=x]] 
+2023-05-27 22:22:20.218 [main] INFO  com.pravin.coding.canvas.CanvasProcessor - executing command R 15 3 20 5 as Rectangle[lines=[Line[c1=14x2,c2=14x4,lineCharacter=x], Line[c1=14x2,c2=19x2,lineCharacter=x], Line[c1=19x4,c2=14x4,lineCharacter=x], Line[c1=19x4,c2=19x2,lineCharacter=x]],c1=14x2,c2=19x4,rectCharacter=x]
+2023-05-27 22:22:20.219 [main] DEBUG com.pravin.coding.canvas.output.ConsoleOutputDisplay - New Canvas Image: 
+ ----------------------
+|                    |
+|                    |
+|xxxxxxx       xxxxxx|
+|              x    x|
+|              xxxxxx|
+----------------------
+2023-05-27 22:22:21.653 [main] INFO  com.pravin.coding.canvas.CanvasProcessor - entered command Q
+2023-05-27 22:22:21.654 [main] INFO  com.pravin.coding.canvas.shapes.parser.Parser - Command Q parsed as [com.pravin.coding.canvas.shapes.Quit@2d52216b] 
+2023-05-27 22:22:21.655 [main] INFO  com.pravin.coding.canvas.CanvasProcessor - executing command Q as com.pravin.coding.canvas.shapes.Quit@2d52216b
+2023-05-27 22:22:21.656 [main] ERROR com.pravin.coding.canvas.CanvasProcessor - Quit
